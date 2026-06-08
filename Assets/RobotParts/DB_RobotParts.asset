@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1368a1416f0b6154898e45dc83522df7, type: 3}
+  m_Name: DB_RobotParts
+  m_EditorClassIdentifier: Assembly-CSharp::DB_RobotParts
+  head:
+  - {fileID: 11400000, guid: bc99957c15c40f84686c7544c3b36fcc, type: 2}
+  - {fileID: 11400000, guid: d8b8b773ee4365c4e8a5b9b66724ce0b, type: 2}
+  - {fileID: 11400000, guid: 2c2fcaa505f8aa745afba0603a814909, type: 2}
+  torso:
+  - {fileID: 11400000, guid: 43b977fbe40e01847858f83013ac61f5, type: 2}
+  - {fileID: 11400000, guid: f41c1b31e74f2724f9701df63d4d00cc, type: 2}
+  - {fileID: 11400000, guid: b752a7237842b584aa05f79ccbb1de0c, type: 2}
+  legs:
+  - {fileID: 11400000, guid: a253f00d4925f4649a42c2d39bd30fe2, type: 2}
+  - {fileID: 11400000, guid: 0ceeedede5e8a3c4d827a326923480fd, type: 2}
+  - {fileID: 11400000, guid: 8d3bb2ba144fe7947a80e43803045041, type: 2}
+  colors:
+  - {r: 0.3433962, g: 0.18854392, b: 0.18854392, a: 0}
