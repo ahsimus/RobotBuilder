@@ -5,6 +5,7 @@ public class RobotBuilderController : MonoBehaviour
 {
     [SerializeField] private DB_RobotParts db;
     [SerializeField] private RobotModelView modelView;
+    [SerializeField] private StatisticUI statUi;
     [SerializeField] private BuilderUI ui;
 
     private RobotModel model;
@@ -13,8 +14,10 @@ public class RobotBuilderController : MonoBehaviour
     {
         CreateDefaultModel();
         modelView.Initialize(model);
+        statUi.Initialize(model);
         ui.PartSelected += OnPartSelected;
         ui.ColorSelected += OnColorSelected;
+       
     }
     private void OnPartSelected(PartType type,int index)
     {
